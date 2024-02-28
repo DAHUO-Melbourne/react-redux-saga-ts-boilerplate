@@ -1,9 +1,13 @@
 import React from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
+import AppRouter from './AppRouter';
 
 function App() {
   return (
     <div className="App">
-      this is a boilerplate for react-redux-redux-saga-typescript
+      <Router>
+        <AppRouter />
+      </Router>
     </div>
   );
 }
